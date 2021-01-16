@@ -111,15 +111,18 @@ body {
     -webkit-transition: all .5s ease-in-out;
     background: #b9b3b3;
     background-color: #948f8f;
+    font-family: 'Hachi Maru Pop', cursive;
 }
 
 .cover-heading {
     color: #f5e7e7;
+    font-family: 'Hachi Maru Pop', cursive;
 }
 
 .lead{
     color: whitesmoke;
     letter-spacing: 0.px;
+    font-family: 'Hachi Maru Pop', cursive;
 }
 
 
@@ -128,4 +131,5 @@ body {
  */
 .mastfoot {
   color: whitesmoke;
+  font-family: 'Hachi Maru Pop', cursive;
 }

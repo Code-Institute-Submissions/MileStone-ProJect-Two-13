@@ -24,9 +24,11 @@ html,
 body {
   height: 100%;
   background-color: #333333;
+  margin: 0;
 }
 
-body {
+
+.index-background-picture {
   display: -ms-flexbox;
   display: -webkit-box;
   display: flex;
@@ -68,14 +70,14 @@ body {
 .nav-masthead .nav-link {
   padding: .25rem 0;
   font-weight: 700;
-  color: rgb(248, 244, 244);
+  color: rgba(255, 255, 255, .5);
   background-color: transparent;
   border-bottom: .25rem solid transparent;
 }
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: rgb(248, 244, 244);
+  border-bottom-color: rgba(255, 255, 255, .25);
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -133,3 +135,102 @@ body {
   color: whitesmoke;
   font-family: 'Hachi Maru Pop', cursive;
 }
+
+
+
+/*.. WELCOME PAGE ..*/
+
+* {
+  box-sizing:border-box;
+
+}
+
+.navbar{ 
+    background:rgb(126, 99, 76);
+}
+
+.nav-link, .navbar-brand{ 
+    color: #f4f4f4; 
+    cursor: pointer;
+}
+
+body, html{
+    margin: 0;
+   font-family: 'Hachi Maru Pop', cursive;
+   overflow-x: hidden;
+    overflow-y: auto;
+    height: 100%;
+
+}
+.welcome-page {
+    background: url('../images/pexels-viktoria-alipatova-2074120.jpg');
+}
+
+
+
+
+.welcome-container {
+  padding: 64px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column-66 {
+  float: left;
+  width: 66.66666%;
+  padding: 65px;
+}
+
+.column-33 {
+  float: left;
+  width: 33.33333%;
+  padding: 65px;
+}
+
+.large-font {
+  font-size: 48px;
+}
+
+.xlarge-font {
+  font-size: 64px
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: rgb(6, 116, 52);
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .column-66,
+  .column-33 {
+    width: 100%;
+    text-align: center;
+  }
+  img {
+    margin: auto;
+  }
+}
+
+/* FOOTER */
+
+.welcome-footer {
+  width: 100%;
+  height: 60px; /* height of the footer*/
+  line-height: 60px; /* Vertically center the text */
+  background-color: #f16b6b;
+}
+

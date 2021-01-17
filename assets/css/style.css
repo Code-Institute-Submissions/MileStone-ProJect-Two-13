@@ -234,3 +234,8 @@ img {
   background-color: #f16b6b;
 }
 
+.float-right, .btn, .btn-small {
+ color: #5e3636;
+ size: 1.px;
+ background-color: #a8a3a3;
+}

@@ -1,3 +1,4 @@
+//SCROLL TOP/BOTTOM
 $('a[href^="#"]').on('click', function(event) {
 
     var target = $(this.getAttribute('href'));
@@ -10,6 +11,8 @@ $('a[href^="#"]').on('click', function(event) {
     }
 
 });
+
+// IMAGE GALLERY
 
 let modalId = $('#image-gallery');
 

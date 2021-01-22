@@ -2,17 +2,17 @@
 a,
 a:focus,
 a:hover {
-  color: rgb(248, 244, 244);
+color: rgb(248, 244, 244);
 }
 
 /* Custom default button */
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
-  color: rgb(248, 244, 244);
-  text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: rgb(248, 244, 244);
-  border: .05rem solid #fff;
+color: rgb(248, 244, 244);
+text-shadow: none; /* Prevent inheritance from `body` */
+background-color: rgb(248, 244, 244);
+border: .05rem solid #fff;
 }
 
 
@@ -22,32 +22,31 @@ a:hover {
 
 html,
 body {
-  height: 100%;
-  background-color: #333333;
-  margin: 0;
+height: 100%;
+background-color: #333333;
+margin: 0;
 }
 
 
 .index-background-picture {
-  display: -ms-flexbox;
-  display: -webkit-box;
-  display: flex;
-  -ms-flex-pack: center;
-  -webkit-box-pack: center;
-  justify-content: center;
-  color: #fff;
-  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
-   
-    background: url("../images/pexels-nada-bastawi-3729243.jpg") no-repeat bottom right fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+display: -ms-flexbox;
+display: -webkit-box;
+display: flex;
+-ms-flex-pack: center;
+-webkit-box-pack: center;
+justify-content: center;
+color: #fff;
+text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+background: url("../images/indexbackground.jpg") no-repeat bottom right fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
 
 }
 
@@ -138,7 +137,7 @@ body {
 
 
 
-/*.. WELCOME PAGE ..*/
+/*.. REVIEWS PAGE ..*/
 
 * {
   box-sizing:border-box;
@@ -162,14 +161,14 @@ body, html{
     height: 100%;
 
 }
-.welcome-page {
-    background: url('../images/pexels-viktoria-alipatova-2074120.jpg');
+.review-page {
+    background: url('../images/reviewsbackground.jpg');
 }
 
 
 
 
-.welcome-container {
+.review-container {
   padding: 64px;
 }
 
@@ -225,9 +224,30 @@ img {
   }
 }
 
+/* .. Image Modal .. */
+#image-gallery .modal-footer{
+  display: block;
+}
+
+.thumb{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.modal-container {
+    padding-bottom: 25px;
+}
+
+.modal-gallery{
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    letter-spacing: 0.5em;
+}
+
 /* FOOTER */
 
-.welcome-footer {
+.review-footer {
   width: 100%;
   height: 60px; /* height of the footer*/
   line-height: 60px; /* Vertically center the text */
@@ -238,4 +258,32 @@ img {
  color: #5e3636;
  size: 1.px;
  background-color: #a8a3a3;
+}
+
+/*.. LOCATIONS ..*/
+
+.background-image-locations {
+height: 75vh;
+background: url("../images/pexels-viktoria-alipatova-2074120.jpg") no-repeat bottom right fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+}
+
+.locations-container {
+    color: #f4f4f4;
+}
+
+/* Set the size of the div element that contains the map */
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+  padding-bottom: 20px;
 }

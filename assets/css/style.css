@@ -3,6 +3,11 @@ a,
 a:focus,
 a:hover {
 color: rgb(240, 122, 122);
+transition: all .5s ease-in-out;
+-moz-transition: all .5s ease-in-out;
+-webkit-transition: all .5s ease-in-out;
+font-family: 'Hachi Maru Pop', cursive;
+
 }
 
 /* Custom default button */
@@ -14,6 +19,11 @@ color: rgb(239, 253, 235);
 text-shadow: none; /* Prevent inheritance from `body` */
 background-color: rgb(175, 43, 43);
 border: .05rem solid #fff;
+transition: all .5s ease-in-out;
+-moz-transition: all .5s ease-in-out;
+-webkit-transition: all .5s ease-in-out;
+font-family: 'Hachi Maru Pop', cursive;
+
 }
 
 
@@ -71,6 +81,8 @@ position: relative;
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
   border-bottom-color: rgba(255, 255, 255, .25);
+  transition-timing-function: ease-in-out;
+transition: 0.25s;
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -324,4 +336,20 @@ text-shadow: #948f8f;
   width: 100%;
   /* The width is the width of the web page */
   padding-bottom: 20px;
+}
+
+
+
+/*........................................................*/
+.background-team {
+    background-color: #f4f4f4;
+}
+
+.team {
+    height: 100%;
+    margin: 0;
+}
+
+.team-footer{
+    height: 50px;
 }

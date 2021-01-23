@@ -353,22 +353,30 @@ background-color: #000000;
 background-image: linear-gradient(72deg, #000000 40%, #484646 100%);
 }
 
-.center-team{
+.team-jumbotron-content{
     color: whitesmoke;
     letter-spacing: 0.1rem;
     line-height: 2rem;
     padding-top: 15px;
 }
 
-
-.background-team {
-    background-color: #f4f4f4;
+.ourteam-container {
+    background:#b48783;
+    color: white;
 }
 
-.team {
-    height: 100%;
-    margin: 0;
+.ourteam-container-content{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    color: cornsilk;
+    
 }
+
+
+
+
+
+
 
 .team-footer{
     height: 50px;

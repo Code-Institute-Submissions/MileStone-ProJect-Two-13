@@ -340,7 +340,27 @@ text-shadow: #948f8f;
 
 
 
-/*........................................................*/
+/*    TEAM PAGE     */
+
+.featurette-divider{
+    margin-left: 3px;
+    margin-right: 3px;
+    color: whitesmoke;
+}
+
+.team-jumbotron{
+background-color: #000000;
+background-image: linear-gradient(72deg, #000000 40%, #484646 100%);
+}
+
+.center-team{
+    color: whitesmoke;
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+    padding-top: 15px;
+}
+
+
 .background-team {
     background-color: #f4f4f4;
 }

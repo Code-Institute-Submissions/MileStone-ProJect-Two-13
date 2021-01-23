@@ -1,6 +1,6 @@
 function initMap() {
             var map = new google.maps.Map(document.getElementById("map"), {
-                zoom: 8,
+                zoom: 11,
                 center: {
                     lat: 53.3498,
                     lng: -6.2603
@@ -30,3 +30,11 @@ function initMap() {
                 imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
             });
         }
+
+$(document).ready(function(){
+  $(".close").click(function(){
+    $("#myAlert").alert("close");
+  });
+});
+        
+

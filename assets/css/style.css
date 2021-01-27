@@ -365,17 +365,17 @@ background: linear-gradient(to top right, rgba(86, 70, 39, 1.0), rgba(41, 16, 19
      padding-top: 15px;
 }
 
-.ourteam-container {
+.ourpassion-container {
      background: rgba(202, 99, 9, 1.0);
      background: -webkit-linear-gradient( right, rgba(202, 99, 9, 1.0), rgba(184, 190, 171, 1.0));
      background: -moz-linear-gradient(right, rgba(202, 99, 9, 1.0), rgba(184, 190, 171, 1.0));
-     background: linear-gradient(to left, rgb(97, 70, 47), rgba(184, 190, 171, 1.0));
+     background: linear-gradient(to left, rgb(97, 70, 47), rgb(154, 158, 146));
 }
 
-.ourteam-container-content{
+.ourpassion-container-content{
      padding-top: 15px;
      padding-bottom: 10px;
-     color: cornsilk;
+     color: rgb(247, 225, 225);
     
 }
 

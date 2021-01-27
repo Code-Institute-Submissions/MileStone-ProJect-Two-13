@@ -2,11 +2,11 @@
 a,
 a:focus,
 a:hover {
-color: rgb(240, 122, 122);
-transition: all .5s ease-in-out;
--moz-transition: all .5s ease-in-out;
--webkit-transition: all .5s ease-in-out;
-font-family: 'Hachi Maru Pop', cursive;
+     color: rgb(240, 122, 122);
+     transition: all .5s ease-in-out;
+     -moz-transition: all .5s ease-in-out;
+     -webkit-transition: all .5s ease-in-out;
+     font-family: 'Hachi Maru Pop', cursive;
 
 }
 
@@ -15,14 +15,14 @@ font-family: 'Hachi Maru Pop', cursive;
 .btn-secondary, 
 .btn-secondary:hover,
 .btn-secondary:focus {
-color: rgb(239, 253, 235);
-text-shadow: none; /* Prevent inheritance from `body` */
-background-color: rgb(175, 43, 43);
-border: .05rem solid #fff;
-transition: all .5s ease-in-out;
--moz-transition: all .5s ease-in-out;
--webkit-transition: all .5s ease-in-out;
-font-family: 'Hachi Maru Pop', cursive;
+     color: rgb(239, 253, 235);
+     text-shadow: none; /* Prevent inheritance from `body` */
+     background-color: rgb(175, 43, 43);
+     border: .05rem solid #fff;
+     transition: all .5s ease-in-out;
+     -moz-transition: all .5s ease-in-out;
+     -webkit-transition: all .5s ease-in-out;
+     font-family: 'Hachi Maru Pop', cursive;
 
 }
 
@@ -33,36 +33,36 @@ font-family: 'Hachi Maru Pop', cursive;
 
 html,
 body {
-height: 100%;
-background-color: #333333;
-margin: 0;
+     height: 100%;
+     background-color: #333333;
+     margin: 0;
 }
 
 
 .index-background-picture {
-display: -ms-flexbox;
-display: -webkit-box;
-display: flex;
--ms-flex-pack: center;
--webkit-box-pack: center;
-justify-content: center;
-color: #fff;
-text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
-background: url("../images/indexbackground.jpg") no-repeat bottom right fixed; 
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-display: flex;
-align-items: center;
-justify-content: center;
-position: relative;
+     display: -ms-flexbox;
+     display: -webkit-box;
+     display: flex;
+     -ms-flex-pack: center;
+     -webkit-box-pack: center;
+     justify-content: center;
+     color: #fff;
+     text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+     box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+     background: url("../images/indexbackground.jpg") no-repeat bottom right fixed; 
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: relative;
 
 }
 
 .cover-container {
-  max-width: 42em;
+     max-width: 42em;
 }
 
 
@@ -70,36 +70,36 @@ position: relative;
  * Header
  */
 .masthead {
-  margin-bottom: 2rem;
+     margin-bottom: 2rem;
 }
 
 .masthead-brand {
-  margin-bottom: 0;
+     margin-bottom: 0;
 }
 
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255, 255, 255, .25);
-  transition-timing-function: ease-in-out;
-transition: 0.25s;
+     border-bottom-color: rgba(255, 255, 255, .25);
+     transition-timing-function: ease-in-out;
+     transition: 0.25s;
 }
 
 .nav-masthead .nav-link + .nav-link {
-  margin-left: 1rem;
+     margin-left: 1rem;
 }
 
 .nav-masthead .active {
-  color: #fff;
-  border-bottom-color: #fff;
+     color: #fff;
+     border-bottom-color: #fff;
 }
 
 @media (min-width: 48em) {
   .masthead-brand {
-    float: left;
+     float: left;
   }
   .nav-masthead {
-    float: right;
+     float: right;
   }
 }
 
@@ -108,28 +108,29 @@ transition: 0.25s;
  * Cover
  */
 .cover {
-  padding: 0 1.5rem;
+     padding: 0 1.5rem;
 }
+
 .cover .btn-lg {
-  padding: .75rem 1.25rem;
-  font-weight: 700;
-  transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    background: #b9b3b3;
-    background-color: #948f8f;
-    font-family: 'Hachi Maru Pop', cursive;
+     padding: .75rem 1.25rem;
+     font-weight: 700;
+     transition: all .5s ease-in-out;
+     -moz-transition: all .5s ease-in-out;
+     -webkit-transition: all .5s ease-in-out;
+     background: #b9b3b3;
+     background-color: #948f8f;
+     font-family: 'Hachi Maru Pop', cursive;
 }
 
 .cover-heading {
-    color: #f5e7e7;
-    font-family: 'Hachi Maru Pop', cursive;
+     color: #f5e7e7;
+     font-family: 'Hachi Maru Pop', cursive;
 }
 
 .lead{
-    color: whitesmoke;
-    letter-spacing: 0.px;
-    font-family: 'Hachi Maru Pop', cursive;
+     color: whitesmoke;
+     letter-spacing: 0.px;
+     font-family: 'Hachi Maru Pop', cursive;
 }
 
 
@@ -137,8 +138,8 @@ transition: 0.25s;
  * Footer
  */
 .mastfoot {
-  color: whitesmoke;
-  font-family: 'Hachi Maru Pop', cursive;
+     color: whitesmoke;
+     font-family: 'Hachi Maru Pop', cursive;
 }
 
 
@@ -146,77 +147,77 @@ transition: 0.25s;
 /*.. REVIEWS PAGE ..*/
 
 * {
-  box-sizing:border-box;
+     box-sizing:border-box;
 
 }
 
 .navbar{ 
-    background:rgb(126, 99, 76);
-}
+     background:rgb(126, 99, 76);
+}   
 
 .nav-link, .navbar-brand{ 
-    color: #f4f4f4; 
-    cursor: pointer;
+     color: #f4f4f4; 
+     cursor: pointer;
 }
 
 body, html{
-    margin: 0;
-   font-family: 'Hachi Maru Pop', cursive;
-   overflow-x: hidden;
-    overflow-y: auto;
-    height: 100%;
+      margin: 0;
+     font-family: 'Hachi Maru Pop', cursive;
+     overflow-x: hidden;
+     overflow-y: auto;
+     height: 100%;
 
 }
 .review-page {
-    background: url('../images/reviewsbackground.jpg');
+     background: url('../images/reviewsbackground.jpg');
 }
 
 
 
 
 .review-container {
-  padding: 64px;
+     padding: 64px;
 }
 
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+     content: "";
+     display: table;
+     clear: both;
 }
 
 .column-66 {
-  float: left;
-  width: 66.66666%;
-  padding: 65px;
+     float: left;
+     width: 66.66666%;
+     padding: 65px;
 }
 
 .column-33 {
-  float: left;
-  width: 33.33333%;
-  padding: 65px;
+     float: left;
+     width: 33.33333%;
+     padding: 65px;
 }
 
 .large-font {
-  font-size: 48px;
+    font-size: 48px;
 }
 
 .xlarge-font {
-  font-size: 64px
+    font-size: 64px
 }
 
 .button {
-  border: none;
-  color: white;
-  padding: 14px 28px;
-  font-size: 16px;
-  cursor: pointer;
-  background-color: rgb(6, 116, 52);
+     border: none;
+     color: white;
+     padding: 14px 28px;
+     font-size: 16px;
+     cursor: pointer;
+     background-color: rgb(6, 116, 52);
 }
 
 img {
-  display: block;
-  height: auto;
-  max-width: 100%;
+    display: block;
+    height: auto;
+    max-width: 100%;
 }
 
 @media screen and (max-width: 1000px) {
@@ -233,12 +234,12 @@ img {
 /* .. Image Modal .. */
 
 #image-gallery .modal-footer{
-  display: block;
+    display: block;
 }
 
 .thumb{
-  margin-top: 15px;
-  margin-bottom: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .modal-container {
@@ -255,36 +256,40 @@ img {
 /* FOOTER */
 
 .review-footer {
-  width: 100%;
-  height: 40px; /* height of the footer*/
-  line-height: 40px; /* Vertically center the text */
-  background:rgb(126, 99, 76);
+    width: 100%;
+    height: 40px; /* height of the footer*/
+    line-height: 40px; /* Vertically center the text */
+    background:rgb(126, 99, 76);
 }
 
 .float-right, .btn, .btn-small {
- color: #5e3636;
- size: 1.px;
- background-color: #a8a3a3;
+    color: #5e3636;
+    size: 1.px;
+    background-color: #a8a3a3;
 }
 
 
 /*.. LOCATIONS ..*/
 
 .locations-backgorund-color{
-    background-color: rgb(54, 54, 49);
+background: rgba(86, 70, 39, 1.0);
+background: -webkit-linear-gradient(bottom left, rgba(86, 70, 39, 1.0), rgba(41, 16, 19, 1.0));
+background: -moz-linear-gradient(bottom left, rgba(86, 70, 39, 1.0), rgba(41, 16, 19, 1.0));
+background: linear-gradient(to top right, rgba(86, 70, 39, 1.0), rgba(41, 16, 19, 1.0));
+
 }
 
 .background-image-locations {
-height: 75vh;
-background: url("../images/map.jpg") no-repeat bottom right fixed; 
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-display: flex;
-align-items: center;
-justify-content: center;
-position: relative;
+    height: 75vh;
+    background: url("../images/map.jpg") no-repeat bottom right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
 
@@ -293,49 +298,49 @@ position: relative;
 }
 
 .header-text{
-padding-top: 35px;
-padding-bottom: 15px;
-letter-spacing: 0.3em;
-color: #000000;
-text-shadow: #948f8f;
+     padding-top: 35px;
+     padding-bottom: 15px;
+     letter-spacing: 0.3em;
+     color: #000000;
+     text-shadow: #948f8f;
 
 }
 
 .section-heading{
-    padding-top: 20px;
-    padding-bottom: 15px;
+     padding-top: 20px;
+     padding-bottom: 15px;
 }
 
 .locations-container {
-    color: #f4f4f4;
-    padding-bottom: 20px;
+     color: #f4f4f4;
+     padding-bottom: 20px;
     
 }
 
 .locations-text {
-    color: #f5e7e7;
-    padding-bottom: 8px;
-    padding-top: 5px;
+     color: #f5e7e7;
+     padding-bottom: 8px;
+     padding-top: 5px;
 }
 
 .shop-name {
-    padding-top: 10px;
-    padding-bottom: 5px;
+     padding-top: 10px;
+     padding-bottom: 5px;
 }
 
 .modal-body-color{
-    background-color: burlywood;
+     background-color: burlywood;
 }
 
 
 
 /* Set the size of the div element that contains the map */
 #map {
-  height: 400px;
+     height: 400px;
   /* The height is 400 pixels */
-  width: 100%;
+     width: 100%;
   /* The width is the width of the web page */
-  padding-bottom: 20px;
+     padding-bottom: 20px;
 }
 
 
@@ -343,32 +348,34 @@ text-shadow: #948f8f;
 /*    TEAM PAGE     */
 
 .featurette-divider{
-    margin-left: 3px;
-    margin-right: 3px;
-    color: whitesmoke;
+     margin-left: 3px;
+     margin-right: 3px;
+     color: whitesmoke;
 }
 
 .team-jumbotron{
-background-color: #000000;
-background-image: linear-gradient(72deg, #000000 40%, #484646 100%);
+     background-color: #000000;
+     background-image: linear-gradient(72deg, #000000 40%, #484646 100%);
 }
 
 .team-jumbotron-content{
-    color: whitesmoke;
-    letter-spacing: 0.1rem;
-    line-height: 2rem;
-    padding-top: 15px;
+     color: whitesmoke;
+     letter-spacing: 0.1rem;
+     line-height: 2rem;
+     padding-top: 15px;
 }
 
 .ourteam-container {
-    background:#b48783;
-    color: white;
+     background: rgba(202, 99, 9, 1.0);
+     background: -webkit-linear-gradient( right, rgba(202, 99, 9, 1.0), rgba(184, 190, 171, 1.0));
+     background: -moz-linear-gradient(right, rgba(202, 99, 9, 1.0), rgba(184, 190, 171, 1.0));
+     background: linear-gradient(to left, rgb(97, 70, 47), rgba(184, 190, 171, 1.0));
 }
 
 .ourteam-container-content{
-    padding-top: 15px;
-    padding-bottom: 10px;
-    color: cornsilk;
+     padding-top: 15px;
+     padding-bottom: 10px;
+     color: cornsilk;
     
 }
 
@@ -376,8 +383,24 @@ background-image: linear-gradient(72deg, #000000 40%, #484646 100%);
 
 
 
+.section-color {
+     background: rgba(202, 99, 9, 1.0);
+     background: -webkit-linear-gradient(left, rgb(97, 70, 47), rgba(184, 190, 171, 1.0));
+     background: -moz-linear-gradient(left, rgba(202, 99, 9, 1.0), rgba(184, 190, 171, 1.0));
+     background: linear-gradient(to right, rgba(202, 99, 9, 1.0), rgba(184, 190, 171, 1.0));
+}
+
+
+
 
 
 .team-footer{
-    height: 50px;
+     height: 50px;
 }
+
+
+
+
+
+
+/* .........CONTACT US FORM .........*/

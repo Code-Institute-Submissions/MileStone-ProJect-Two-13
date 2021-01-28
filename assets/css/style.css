@@ -36,6 +36,10 @@ body {
      height: 100%;
      background-color: #333333;
      margin: 0;
+     font-family: 'Hachi Maru Pop', cursive;
+     overflow-x: hidden;
+     overflow-y: auto;
+    
 }
 
 
@@ -160,14 +164,7 @@ body {
      cursor: pointer;
 }
 
-body, html{
-      margin: 0;
-     font-family: 'Hachi Maru Pop', cursive;
-     overflow-x: hidden;
-     overflow-y: auto;
-     height: 100%;
 
-}
 .review-page {
      background: url('../images/reviewsbackground.jpg');
 }
@@ -379,8 +376,31 @@ background: linear-gradient(to top right, rgba(86, 70, 39, 1.0), rgba(41, 16, 19
     
 }
 
+.background-quote-container{
+     
+     background: url('../images/backgroundWhoWeAre.jpg');
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: relative;
+    
+}
+
+.quote-container{
+     padding-top: 60px;
+    
+}
 
 
+.quote-jumbotron{
+     background-color: transparent;
+     color: white;
+     
+}
 
 
 .section-color {

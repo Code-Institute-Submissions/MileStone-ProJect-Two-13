@@ -151,7 +151,7 @@ body {
 /*.. REVIEWS PAGE ..*/
 
 * {
-     box-sizing:border-box;
+     box-sizing: border-box;
 
 }
 
@@ -261,7 +261,7 @@ img {
 
 .float-right, .btn, .btn-small {
     color: #5e3636;
-    size: 1.px;
+    size: 1px;
     background-color: #a8a3a3;
 }
 
@@ -422,7 +422,9 @@ background: linear-gradient(to top right, rgba(86, 70, 39, 1.0), rgba(41, 16, 19
 }
 
 
-.alert.warning {background-color: #ff9800;}
+.alert.warning {
+    background-color: #ff9800;
+}
 
 .closebtn {
   margin-left: 15px;
@@ -453,3 +455,107 @@ background: linear-gradient(to top right, rgba(86, 70, 39, 1.0), rgba(41, 16, 19
 
 
 /* .........CONTACT US FORM .........*/
+
+.contact-us-background {
+     height: 65vh;
+     background: url("../images/contactUs.jpg") no-repeat bottom right fixed ;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: relative;
+}
+
+.contact-us-jumbotron {
+     background-color: transparent;
+}
+
+.get-in-touch-container-fluid {
+     padding-top: 40px;
+     background-color: rgba(56, 38, 22, 0.829);
+     color: white;
+     background-image: url("../images/emailus.jpg");
+     background-size: cover;
+    
+}
+
+.get-in-touch-container {
+     padding-bottom: 45px;
+}
+
+.get-in-touch-h1 {
+     padding-bottom: 25px;
+}
+
+
+.vertical { 
+     border-left: 5px solid black; 
+     height: 200px; 
+} 
+
+
+.contact-us-h2 {
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+.contact-us-h4{
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+.container-map-contact-us {
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+
+.contact-map-background {
+    background: url('../images/contactmap.jpg');
+    background-size: cover;
+}
+
+
+.fas {
+     padding: 12px;
+     font-size: 15px;
+     width: 10%;
+     text-align: center;
+     text-decoration: none;
+     margin: 60px 60px;
+    
+}
+
+
+
+.fa:hover {
+     opacity: 0.7;
+} 
+
+.fa-facebook {
+     background: #3B5998;
+     color: white;
+}
+
+.fa-twitter {
+     background: #55ACEE;
+     color: white;
+}
+
+.fa-linkedin {
+     background: #007bb5;
+     color: white;
+}
+
+.fa-instagram {
+     background: #125688;
+     color: white;
+}
+
+
+.mainfooter {
+     background-color: lemonchiffon;
+}
+

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+   
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+   (function(){
+      emailjs.init("user_SkkF56FsikYAm4gfjXbsH");
+      
+    })();
+</script>
+
+    <title>MileStoneProject Nr2</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg fixed-top ">
+    <a class="navbar-brand" href="index.html">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav  ml-auto">
+            <li class="nav-item">
+                <a class="nav-link " data-value="portfolio" href="reviews.html">Reviews</a>
+            </li>
+            <li class="nav-item"> 
+                <a class="nav-link " data-value="blog" href="locations.html">Locations</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " data-value="team" href="team.html">Team</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " data-value="contact" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!-- Division background image center contact Us -->
+<div class="container-fluid contact-us-background">
+    <div class="container contact-us-container">
+      <div class="jumbotron contact-us-jumbotron">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="text-center" style="color: aquamarine;">CONTACT US</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- second div / Get in touch -->
+<div class="container-fluid get-in-touch-container-fluid">
+    <div class="container get-in-touch-container">
+        <h1 class="text-center get-in-touch-h1">Get in touch with us !</h1>
+        <div class="row">
+            <div class="col-lg-4 vertical" >
+                <p>
+                    <h1><a class="text-center xlarge">Phone:<i class="fa fa-mobile" ></i></a></h1>
+                    <h4>
+                        <p>You can reach Us</p>
+                        <p>+353 87 333 2222</p>
+                    </h4>
+                </p>
+            </div>
+            <div class="col-lg-4 vertical">
+                <p>
+                    <h1>Address:<i class="fa fa-street-view"></i></h1>
+                    <h4>
+                        <p>Grafton Street 51, Dublin 2, D2 M2M1</p>
+                    </h4>
+                </p>
+            </div>
+            <div class="col-lg-4 vertical">
+                <p>
+                    <h1>Email:<i class="fa fa-inbox"></i></h1>
+                    <h4>
+                        <p>Email us on :</p>
+                        <p>60MlsofCoffeeS@gmail.com</p>
+                    </h4>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Us Form-->
+    <section class="container ">
+        <div class="row">
+            <div class="col">
+                <h2 class="contact-heading text-uppercase text-center contact-us-h2">Please Contact Us</h2>
+                <h4 class="uppercase text-center contact-us-h4">We are happy to be here for You!</h4>
+                <div class="center-form">
+                    <form onsubmit="return sendMail(this);">
+                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
+                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
+                        <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Project description" required></textarea>
+                        <div class="form-row text-center">
+                            <div class="col">
+                                <button type="submit" class="btn btn-secondary">Contact Us</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+     </section>
+     <!-- conect with us / social links -->
+     <div class="container">
+         <h2 class="text-center">Follow Us on:</h2>
+         <div class="row">
+             <div class="col-lg">
+                 <a href="#" class="fas fa-facebook ">Facebook</a>
+                 <a href="#" class="fas fa-twitter ">Twitter</a>
+                 <a href="#" class="fas fa-linkedin ">LinkedIn</a>
+                 <a href="#" class="fas fa-instagram">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- google map -->
+    <div class="container-fluid contact-map-background">
+        <h3 class="text-center">You Can find Us here!</h3>
+        <div class="container container-map-contact-us">
+            <div class="row">
+                <div id="map"></div>
+            </div>
+        </div>
+    </div>
+    <footer class="review-footer">
+        <div class="container container-footer">
+            <p class="text-center copy-right"><strong><em><a href="https://romanstr-code.github.io/milestone-projectOne-CoffeeShop/" target="_blank">© 60Mls of Coffee, 2021</a></em></strong></p>
+        </div>
+    </footer>
+   
+
+    <script src="assets/js/sendEmail.js"></script>
+    
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCUNzy1XZ52oYPfxE7itDy1dT_qDNxJA4I&callback=initMap">
+    </script>
+    <script src="assets/js/contactMap.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+
+</body>
+</html>

@@ -53,16 +53,9 @@ body {
      color: #fff;
      text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
      box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
-     background: url("../images/indexbackground.jpg") no-repeat bottom right fixed; 
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -o-background-size: cover;
+     background: url("../images/indexbackground.jpg") ; 
      background-size: cover;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     position: relative;
-
+     opacity: 0.6;
 }
 
 .cover-container {
@@ -107,6 +100,10 @@ body {
   }
 }
 
+.index-main-text {
+    color: #000000;
+}
+
 
 /*
  * Cover
@@ -127,13 +124,13 @@ body {
 }
 
 .cover-heading {
-     color: #f5e7e7;
+     color: #ffffff;
      font-family: 'Hachi Maru Pop', sans-serif;
 }
 
 .lead{
-     color: whitesmoke;
-     letter-spacing: 0px;
+     color: #ffffff;
+     letter-spacing: 0.3em;
      font-family: 'Hachi Maru Pop', sans-serif;
 }
 

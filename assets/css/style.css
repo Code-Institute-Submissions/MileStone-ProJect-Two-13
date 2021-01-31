@@ -3,9 +3,9 @@ a,
 a:focus,
 a:hover {
      color: rgb(240, 122, 122);
-     transition: all .5s ease-in-out;
-     -moz-transition: all .5s ease-in-out;
-     -webkit-transition: all .5s ease-in-out;
+     transition: all .3s ease-in-out;
+     -moz-transition: all .3s ease-in-out;
+     -webkit-transition: all .3s ease-in-out;
      font-family: 'Hachi Maru Pop', cursive;
 
 }

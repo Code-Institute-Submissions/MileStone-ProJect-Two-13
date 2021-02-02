@@ -42,6 +42,8 @@ body {
     
 }
 
+/* INDEX.html PAGE */
+
 
 .index-background-picture {
      display: -ms-flexbox;
@@ -228,32 +230,32 @@ img {
 /* .. Image Modal .. */
 
 #image-gallery .modal-footer{
-    display: block;
+     display: block;
 }
 
 .thumb{
-    margin-top: 15px;
-    margin-bottom: 15px;
+     margin-top: 15px;
+     margin-bottom: 15px;
 }
 
 .modal-container {
-    padding-bottom: 25px;
+     padding-bottom: 25px;
 }
 
 .modal-gallery{
-    color: white;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    letter-spacing: 0.5em;
+     color: white;
+     padding-top: 20px;
+     padding-bottom: 10px;
+     letter-spacing: 0.5em;
 }
 
 /* FOOTER */
 
 .review-footer {
-    width: 100%;
-    height: 40px; /* height of the footer*/
-    line-height: 40px; /* Vertically center the text */
-    background:rgb(126, 99, 76);
+     width: 100%;
+     height: 40px; /* height of the footer*/
+     line-height: 40px; /* Vertically center the text */
+     background:rgb(126, 99, 76);
 }
 
 .float-right, .btn, .btn-small {
@@ -265,29 +267,29 @@ img {
 /*.. LOCATIONS ..*/
 
 .locations-backgorund-color{
-background: rgba(86, 70, 39, 1.0);
-background: -webkit-linear-gradient(bottom left, rgba(86, 70, 39, 1.0), rgba(41, 16, 19, 1.0));
-background: -moz-linear-gradient(bottom left, rgba(86, 70, 39, 1.0), rgba(41, 16, 19, 1.0));
-background: linear-gradient(to top right, rgba(86, 70, 39, 1.0), rgba(41, 16, 19, 1.0));
+     background: rgba(86, 70, 39, 1.0);
+     background: -webkit-linear-gradient(bottom left, rgba(86, 70, 39, 1.0), rgba(41, 16, 19, 1.0));
+     background: -moz-linear-gradient(bottom left, rgba(86, 70, 39, 1.0), rgba(41, 16, 19, 1.0));
+     background: linear-gradient(to top right, rgba(86, 70, 39, 1.0), rgba(41, 16, 19, 1.0));
 
 }
 
 .background-image-locations {
-    height: 75vh;
-    background: url("../images/map.jpg") no-repeat bottom right fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+     height: 75vh;
+     background: url("../images/map.jpg") no-repeat bottom right fixed; 
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: relative;
 }
 
 
 .header-locations {
-    color: rgb(55, 59, 47);
+     color: rgb(55, 59, 47);
 }
 
 .header-text{
@@ -409,46 +411,33 @@ background: linear-gradient(to top right, rgba(86, 70, 39, 1.0), rgba(41, 16, 19
 /* alert box */
 
 .alert {
-  padding: 20px;
-  background-color: #f44336;
-  color: white;
-  opacity: 1;
-  transition: opacity 0.6s;
-  margin-bottom: 15px;
+     padding: 20px;
+     background-color: #f44336;
+     color: white;
+     opacity: 1;
+     transition: opacity 0.6s;
+     margin-bottom: 15px;
 }
 
 
 .alert.warning {
-    background-color: #ff9800;
+     background-color: #ff9800;
 }
 
 .closebtn {
-  margin-left: 15px;
-  color: white;
-  font-weight: bold;
-  float: right;
-  font-size: 22px;
-  line-height: 20px;
-  cursor: pointer;
-  transition: 0.3s;
+     margin-left: 15px;
+     color: white;
+     font-weight: bold;
+     float: right;
+     font-size: 22px;
+     line-height: 20px;
+     cursor: pointer;
+     transition: 0.3s;
 }
 
 .closebtn:hover {
-  color: black;
+     color: black;
 }
-
-
-
-
-
-.team-footer{
-     height: 50px;
-}
-
-
-
-
-
 
 /* .........CONTACT US FORM .........*/
 
@@ -494,23 +483,23 @@ background: linear-gradient(to top right, rgba(86, 70, 39, 1.0), rgba(41, 16, 19
 
 
 .contact-us-h2 {
-    padding-bottom: 15px;
-    padding-top: 10px;
+     padding-bottom: 15px;
+     padding-top: 10px;
 }
 
 .contact-us-h4{
-    padding-bottom: 15px;
-    padding-top: 10px;
+     padding-bottom: 15px;
+     padding-top: 10px;
 }
 
 .container-map-contact-us {
-    padding-top: 35px;
-    padding-bottom: 25px;
+     padding-top: 35px;
+     padding-bottom: 25px;
 }
 
 .contact-map-background {
-    background: url('../images/contactmap.jpg');
-    background-size: cover;
+     background: url('../images/contactmap.jpg');
+     background-size: cover;
 }
 
 
@@ -554,4 +543,3 @@ background: linear-gradient(to top right, rgba(86, 70, 39, 1.0), rgba(41, 16, 19
 .mainfooter {
      background-color: lemonchiffon;
 }
-

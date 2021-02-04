@@ -189,14 +189,14 @@ You can see clearly new navigation bar with all pages displayed.<br>
 
  ### Contact Page
 <strong>Contact Page</strong>
- Contact page, is important for both, for users and for owners.
- The page top great you with a simple division, background image and just a simple greating and same time calling for accessing the contacting information.
- On Scrolling down, you transition to a part of the page with 3 columns with information about the address, phone and email of the team who owns the site.
- Traveling slightly down the page, you encounter a Contact Us form, so if you interest in some particular service you need or want you easy can take action and contact us.
+ Contact page, is important for both, users and owners.
+ The page top greet you with a simple division, background image and just a simple greeting and same time calling for accessing the contacting information.
+ On Scrolling down, you transition to a part of the page with 3 columns with information like the address, phone and email of the team who owns the site.
+ Traveling slightly down the page, you encounter a Contact Us form, so if you interest in some particular service you need or want, you easy can take action and contact us.
  Slightly under Contact us Form you find another small division with social links and what calls you for Follow.
  The Contact Page as well is equiped at the end of the page with a google map. 
  The map displays recent coffee places that was reviewed and make a call out to look for them by accessing the Check for button.
- By accessing the button the locations of newly reviewed shops will appear on the map in a consecutive order.
+ By accessing the button the locations of newly reviewed shops will appear on the map in a consecutive order and will Bounce.
   
   ### Tablet Screens
   - On tablets screens, not much changes that you can experience on the Desktop. Still it Offers a uniq way of living the experience of travel inside the site.
@@ -268,7 +268,7 @@ You can see clearly new navigation bar with all pages displayed.<br>
 
 ## Results of Testing
 - [TESTING FOLDER](https://github.com/romanstr-code/MileStone-ProJect-Two/tree/master/testing)<br>
-- * Results Each Page Individual.
+- * Each Page Individual.
 - [Home](https://github.com/romanstr-code/MileStone-ProJect-Two/blob/master/testing/index.png)
 - [Reviews](https://github.com/romanstr-code/MileStone-ProJect-Two/blob/master/testing/reviews.png)
 - [Locations](https://github.com/romanstr-code/MileStone-ProJect-Two/blob/master/testing/locations.png)

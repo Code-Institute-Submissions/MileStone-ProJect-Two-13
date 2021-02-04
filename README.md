@@ -8,7 +8,7 @@
 
 Code Institute gives you a variety of ideas from where to pick and start your projects. In the Second Milestone Project I went with an idea what I have in mind 
 for some time and that is: Coffee Houses Reviews. Because I am a coffe lover and always want to try new coffee shops and the techniques that changes from place to place.
-So I would truly like if there would be a website that would be owned buy profesionals baristas who just walk arround the city or arroun the country
+So I would truly like if there would be a website that would be owned by profesionals baristas who just walk arround the city or arroun the country
 looking for amazing hidden places that deffinetly would worth visit by people like me.
 From this simple idea I started to build the site. At first, for first page, was thinking of simple first page, a background image on all screen. Want to keep the buttons on minimal and to point
 just on the pages which the user need in a nice way to pay attention the most. The main text, it ment to be on the middle of the page and describe short what the website is about

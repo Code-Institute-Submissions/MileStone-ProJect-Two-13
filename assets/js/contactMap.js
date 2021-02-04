@@ -45,7 +45,7 @@ function addMarkerWithTimeout(position, timeout) {
       new google.maps.Marker({
         position: position,
         map,
-        animation: google.maps.Animation.DROP,
+        animation: google.maps.Animation.BOUNCE,
       })
     );
   }, timeout);

@@ -1,40 +1,35 @@
-function initMap() {
-            var map = new google.maps.Map(document.getElementById("map"), {
-                zoom: 11,
-                center: {
-                    lat: 53.3498,
-                    lng: -6.2603
-                }
-            });
-            var labels = "ABCDEFGHIJKLMONPQRSTUVWXYZ";
-
-            var locations = [{
-                lat: 53.386362,
-                lng: -6.37798
-            }, {
-                lat: 53.346709,
-                lng: -6.259782
-            }, {
-                lat: 53.288782,
-                lng: -6.244698
-            }];
-
-            var markers = locations.map(function(location, i) {
-                return new google.maps.Marker({
-                    position: location,
-                    label: labels[i % labels.length]
-                });
-            });
-
-            var markerCluster = new MarkerClusterer(map, markers, {
-                imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
-            });
-        }
-
-$(document).ready(function(){
-  $(".close").click(function(){
-    $("#myAlert").alert("close");
-  });
-});
-        
-
+var LocationData = [
+    [53.386362, -6.37798, "The Best Teste !" ], 
+    [53.346709, -6.259782, "Great Place to Relax!" ], 
+    [53.288782, -6.244698, "Favorite Place!" ]
+];
+    
+ 
+function initMap()
+{
+    var map = 
+        new google.maps.Map(document.getElementById('map'));
+    var bounds = new google.maps.LatLngBounds();
+    var infowindow = new google.maps.InfoWindow();
+     
+    for (var i in LocationData)
+    {
+        var p = LocationData[i];
+        var latlng = new google.maps.LatLng(p[0], p[1]);
+        bounds.extend(latlng);
+         
+        var marker = new google.maps.Marker({
+            position: latlng,
+            map: map,
+            title: p[2]
+        });
+     
+        google.maps.event.addListener(marker, 'click', function() {
+            infowindow.setContent(this.title);
+            infowindow.open(map, this);
+        });
+    }
+     
+    map.fitBounds(bounds);
+}
+ 

@@ -34,12 +34,6 @@ $(document)
       }
     }
 
-    /**
-     *
-     * @param setIDs        Sets IDs when DOM is loaded. If using a PHP counter, set to false.
-     * @param setClickAttr  Sets the attribute for the click handler.
-     */
-
     function loadGallery(setIDs, setClickAttr) {
       let current_image,
         selector,
@@ -106,3 +100,5 @@ $(document)
     }
     e.preventDefault(); // prevent the default action (scroll / move caret)
   });
+
+  

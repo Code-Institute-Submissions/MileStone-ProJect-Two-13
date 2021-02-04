@@ -102,13 +102,18 @@ Each page is different and uniq in their own ways and all of them indicate into 
  - By navigating the website they translate different emotions to users.
 
 ##  Wireframes
-<h3 align="center">Projects Wireframes </h3>
-
- <h1 align="center"><img src="/"></h1>
- <h1 align="center"><img src="/"></h1>
- <h1 align="center"><img src="/"></h1>
- <h1 align="center"><img src="/"></h1>
- <h1 align="center"><img src="/"></h1>
+[Wireframes Folder](https://github.com/romanstr-code/MileStone-ProJect-Two/tree/master/wireframes)
+ <h2 align="center">Projects Wireframes </h2>
+ <h3 align="center">HOME PAGE</h3>
+ <h1 align="center"><img src="wireframes/Home.png"></h1>
+ <h3 align="center">REVIEWS PAGE</h3>
+ <h1 align="center"><img src="wireframes/Reviews.png"></h1>
+ <h3 align="center">LOCATIONS PAGE</h3>
+ <h1 align="center"><img src="wireframes/Locations.png"></h1>
+ <h3 align="center">TEAM PAGE</h3>
+ <h1 align="center"><img src="wireframes/Team.png"></h1>
+ <h3 align="center">CONTACT PAGE</h3>
+ <h1 align="center"><img src="wireframes/Contact.png"></h1>
 
 
  ## Features 
@@ -262,11 +267,13 @@ You can see clearly new navigation bar with all pages displayed.<br>
  - [JSHint](https://jshint.com)
 
 ## Results of Testing
-- [Home]()
-- [Reviews]()
-- [Locations]()
-- [Team]()
-- [Contact]()
+- [TESTING FOLDER](https://github.com/romanstr-code/MileStone-ProJect-Two/tree/master/testing)<br>
+- * Results Each Page Individual.
+- [Home](https://github.com/romanstr-code/MileStone-ProJect-Two/blob/master/testing/index.png)
+- [Reviews](https://github.com/romanstr-code/MileStone-ProJect-Two/blob/master/testing/reviews.png)
+- [Locations](https://github.com/romanstr-code/MileStone-ProJect-Two/blob/master/testing/locations.png)
+- [Team](https://github.com/romanstr-code/MileStone-ProJect-Two/blob/master/testing/team.png)
+- [Contact](https://github.com/romanstr-code/MileStone-ProJect-Two/blob/master/testing/contact.png)
 
 # Testing User Stories from User Experience (UX) Section
 

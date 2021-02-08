@@ -23,7 +23,7 @@ a:hover {
      -moz-transition: all .5s ease-in-out;
      -webkit-transition: all .5s ease-in-out;
      font-family: 'Hachi Maru Pop', cursive;
-
+     
 }
 
 
@@ -89,7 +89,7 @@ body {
 }
 
 .nav-masthead .active {
-     color: rgb(3, 3, 3);
+     color: rgb(26, 25, 25);
      border-bottom-color: #fff;
 }
 
@@ -207,7 +207,6 @@ body {
      padding: 14px 28px;
      font-size: 16px;
      cursor: pointer;
-     background-color: rgb(6, 116, 52);
 }
 
 img {
@@ -374,6 +373,18 @@ img {
     
 }
 
+.inner {
+    overflow: hidden;
+}
+
+.inner img {
+    transition: all 1.5s ease;
+}
+
+.inner:hover img{
+    transform: scale(1.5);
+}
+
 .background-quote-container{
      
      background: url('../images/backgroundWhoWeAre.jpg');
@@ -438,6 +449,7 @@ img {
 .closebtn:hover {
      color: black;
 }
+
 
 /* .........CONTACT US FORM .........*/
 

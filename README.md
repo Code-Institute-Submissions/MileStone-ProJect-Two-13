@@ -355,7 +355,8 @@ All this to help me point out the errors and mistakes I omitted.
 - Social links on hoovered makes not a smooth encounter.
 #### On Desktop
 - On some Browsers some images is displayed on all screen which makes it not nice to website feedback feeling.
-
+- On Locations Page, on google map, when you check infowindow, it it is hard to read the text.
+- Some web pages load hard, maybe because of the weight of images used.
 
 ## Deployment
 

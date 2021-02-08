@@ -140,6 +140,7 @@ On the top, Page has 3 buttons that clearly indicate to 3 things:
 - You can contact the Team first, if you already are familiar with their work.<br>
 In the middle of the Page you find a nice Welcome message that it meant just for you alone and a nicely placed button under the paragraph that calls you for action.
 And finaly you can see a minimalistic Footer with a simple copyright, and all is to make the user feel welcomed and not overloaded with information from first encounter with the website.
+- The Home page is meant to be exactly the same on all screens(Without Burger icon).
 
 ### Reviews Page
 - <strong>Reviews Page</strong><br>

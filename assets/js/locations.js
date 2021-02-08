@@ -1,10 +1,12 @@
+//Coffee House Locations
 var LocationData = [
     [53.386362, -6.37798, "The Best Teste !" ], 
     [53.346709, -6.259782, "Great Place to Relax!" ], 
     [53.288782, -6.244698, "Favorite Place!" ]
 ];
     
- 
+ // Initialize Google Map
+//Markers with Infowindow
 function initMap()
 {
     var map = 

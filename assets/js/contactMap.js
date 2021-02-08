@@ -1,7 +1,8 @@
 // number of markers
 //drop them on the map
 // consecutively, rather than all at once. 
-// window.setTimeout() to space your markers' animation.
+// Bounce all markers.
+// window.setTimeout() to space  markers' animation.
 const coffehouses = [
   {  lat: 53.386362,
                 lng: -6.37798 },
@@ -20,7 +21,7 @@ const coffehouses = [
 ];
 let markers = [];
 let map;
-
+// Initialize Google Map. Center Location.
 function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
     zoom: 11,
@@ -30,7 +31,7 @@ function initMap() {
     },
   });
 }
-
+//Drop Markers
 function drop() {
   clearMarkers();
 
@@ -38,7 +39,7 @@ function drop() {
     addMarkerWithTimeout(coffehouses[i], i * 200);
   }
 }
-
+// Markers , Bouncing and drop consecutivley
 function addMarkerWithTimeout(position, timeout) {
   window.setTimeout(() => {
     markers.push(
